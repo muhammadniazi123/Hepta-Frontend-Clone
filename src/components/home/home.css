@@ -1,0 +1,231 @@
+body {
+  background: #fff;
+  font-family: "Mukta Mahee", arial, sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #6c757d;
+}
+.home-start {
+  position: relative; 
+  width: 100%;
+  height: 100vh; /* Change to full viewport height */
+  background: url('./home_background2.jpg') no-repeat center center/cover; /* Use background image directly */
+  overflow: hidden; /* Ensure no overflow */
+}
+
+.home-start::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Ensure the overlay is above the background image */
+}
+
+.home-start .data {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  width: 100%; /* Ensure the data container takes full width */
+  padding: 0 20px; /* Add padding for smaller screens */
+  box-sizing: border-box; /* Include padding in width calculation */
+  z-index: 2; /* Ensure the text is above the overlay */
+}
+
+.home-start .data h1, .data p {
+  color: white;
+}
+
+.home-start .data h1 {
+  font-size: 5rem;
+  margin: 0;
+}
+
+.home-start .data p {
+  font-size: 2rem;
+  padding-top: 15px;
+}
+
+.home-start .data p a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.home-start .data p a:hover {
+  color: white;
+}
+
+.button1 {
+  margin-top: 55px;
+  display: inline-block;
+  padding: 15px 60px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button1:hover {
+  background-color: white;
+  color: black;
+}
+
+
+.button1:hover {
+  background-color: white;
+  color: black;
+}
+
+.home-heading {
+  position: relative;
+  z-index: 0; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  text-align: left;
+  flex-wrap: wrap; 
+}
+
+.home-heading img {
+  height: 650px;
+  width: 500px;
+  max-width: 500px;
+  margin: 20px;
+}
+
+.home-heading .heading-data {
+  max-width: 500px;
+  margin: 20px;
+}
+
+.home-heading .heading-data h3 {
+  font-size: 36px; 
+  margin-bottom: 20px;
+}
+
+.heading .heading-data p {
+  font-size: 18px; /* Adjust as needed */
+  line-height: 1.5;
+  color: black;
+}
+
+
+.container1{
+  background: #fafafa;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 150px;
+}
+.container-data{
+  justify-content: center;
+  text-align: center;
+
+}
+.container-data p{
+  font-size: 18px;
+  padding: 0 370px;
+  font-weight:300px; 
+}
+h1, h2, h3 {
+  color: #000;
+  font-family: "Abril Fatface", times, serif;
+}
+.container-data h2{
+  font-size: 32px;
+}
+.slideshow-section1{
+padding: 90px 50px;
+background-image: linear-gradient(176deg, #ffffff 40%, #65c0ba calc(40% + 2px))
+}
+.customer-section{
+padding: 100px  150px;
+background: #fafafa;
+    border-top: 1px solid #e0e0e0 
+}
+.customer-section h1{
+  font-size: 70px;
+  font-family: "Abril Fatface", times, serif;}
+.Rating-section{
+  padding: 125px 100px;
+  }
+  .slideshow-section1 .font{
+    color: white;
+  }
+  @media (max-width: 768px) {
+ 
+    .heading {
+        flex-direction: column;
+        text-align: center; /* Center text on smaller screens */
+    }
+  
+    .heading img,
+    .heading .heading-data {
+        margin: 20px 0; /* Add margin for spacing */
+    }
+  }
+  @media (max-width: 480px) {
+    .button1{
+      width: 255px;
+      height: 55px;
+        }
+    .home-start .data h1{
+      font-size: 50px;
+    }
+    .home-start .data p{
+      font-size: 30px;
+    }
+    .home-start .data{
+      width: 350px;
+    }
+    .home-start img{
+      height: 650px;
+    }
+    .slideshow-section1 .container-data p {
+      padding: 0 50px;
+    }
+    .slideshow-section1 .font{
+      color: #000;
+    }
+    .Rating-section{
+      padding: 125px 0;
+    }
+    .home-heading img{
+      height: 400px;
+      width: 400px;
+      margin: 0;
+    }
+    .container-data p {
+      padding: 0 50px;
+      font-size: 25px;
+    }
+    .container-data h1{
+      font-size:50px ;
+    }
+    .customer-section{
+      padding: 100px 0;
+    }
+    .slideshow-section1{
+      padding: 90px 0;
+    }
+    .container1 .container-data p{
+      padding: 0 50px;
+    }
+    .Rating-section .container-data p {
+      padding: 0 50px;
+    }
+    .home-start .data p a{
+      color: white;
+    }
+  }

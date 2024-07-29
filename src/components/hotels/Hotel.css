@@ -1,0 +1,188 @@
+.hotel-start {
+    position: relative; 
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url('./adventure.jpg') no-repeat center center/cover; /* Use background image directly */
+  overflow: hidden; 
+  }
+  
+  .hotel-start img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .hotel-start .data {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+  }
+  .hotel-start::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0 0 0 / 30%);
+    z-index: 1;
+}
+  .hotel-start .data h1, .data p {
+    color: white;
+  }
+  
+  .hotel-start .data p {
+    font-size: 2rem;
+    padding-top: 15px;
+  }
+  
+  .hotel-start .data h1 {
+    font-size: 5rem;
+    margin: 0;
+  }
+  
+  .hotel-start .data p a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: underline;
+    font-weight: normal;
+  }
+  
+  .data p a:hover {
+    color: white;
+  }
+  .benefit-section{
+    padding: 50px 0;
+  }
+  .hotel-heading {
+    position: relative;
+    z-index: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    text-align: left;
+    flex-wrap: wrap; 
+  }
+  
+  .hotel-heading img {
+    height: auto;
+    width: 100%;
+    max-width: 525px; 
+    height:580px;
+    width: 520px;
+    margin: 20px;
+  }
+  
+  .hotel-heading .heading-data {
+    max-width: 500px; 
+    margin: 20px;
+  }
+  
+  .hotel-heading .heading-data h3 {
+    font-size: 36px; 
+    margin-bottom: 20px;
+  }
+  
+  .hotel-heading .heading-data p {
+    font-size: 18px; /* Adjust as needed */
+    line-height: 1.5;
+    color: black;
+  }
+  
+
+  .container1{
+    background: #fafafa;
+      border-top: 1px solid #e0e0e0;
+      padding-top: 150px;
+  }
+  .container-data{
+    justify-content: center;
+    text-align: center;
+  
+  }
+  .container-data p{
+    font-size: 18px;
+    padding: 0 370px;
+    font-weight:300px; 
+  }
+  h1, h2, h3 {
+    color: #000;
+    font-family: "Abril Fatface", times, serif;
+  }
+  .container-data h2{
+    font-size: 32px;
+  }
+  .hotel-slideshow-section{
+  padding: 90px 50px;
+  background-image: linear-gradient( #ffffff 40%, #e9ecef calc(30% + 2px))
+  } 
+  .button {
+    margin-top: 55px;
+    display: inline-block;
+    padding: 15px 60px;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: 2px solid #65c0ba;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 4px;
+  }
+  
+  .button:hover {
+    background-color: #65c0ba;
+    color: rgb(255, 255, 255);
+  }
+  .second-hotel-heading img{
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .first-hotel-heading img{
+    margin-right: 0px;
+    margin-bottom: 0px; 
+  }
+    /* Media query for smaller screens */
+    @media (max-width: 480px) {
+      .hotel-heading img{
+        height: 400px;
+        width: 400px;
+        margin: 0;
+      } 
+    
+      .hotel-heading {
+        display: flex;
+        width: 425px;
+        flex-direction: column;
+      }
+      .second-hotel-heading{
+        display: flex;
+        flex-direction: column-reverse;
+      }
+      .hotel-slideshow-section h1{
+        font-size: 40px;
+      }
+      .hotel-slideshow-section {
+        padding: 90px 0px
+      }
+      .hotel-start .data h1{
+        font-size: 50px;
+      }
+      .hotel-start .data{
+        width: 350px;
+      }
+      .hotel-slideshow-section .container-data p{
+        padding: 0 50px;
+      }
+    }

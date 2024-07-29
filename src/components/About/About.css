@@ -1,0 +1,198 @@
+.About-start {
+    position: relative; 
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url('./beach.jpg') no-repeat center center/cover; 
+    overflow: hidden;
+  }
+  
+  .About-start img {
+    position: absolute;
+    top: 0;
+    height: 500px;
+    width: 100%;
+    z-index: 1;
+  }
+  .About-start::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0 0 0 / 30%);
+    z-index: 1;
+}
+  .About-start .data {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+  }
+  
+  .data h1, .data p {
+    color: white;
+  }
+  
+  .data p {
+    font-size: 2rem;
+    padding-top: 15px;
+  }
+  
+  .data h1 {
+    font-size: 5rem;
+    margin: 0;
+  }
+  
+  .data p a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: underline;
+    font-weight: normal;
+  }
+  
+  .data p a:hover {
+    color: white;
+  }
+  .About-heading {
+    position: relative;
+    z-index: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    text-align: left;
+    flex-wrap: wrap; 
+  }
+  
+  .About-heading img {
+    height: 550px;
+    width: 400px;
+    max-width: 525px; 
+    margin: 20px;
+  }
+  
+  .About-heading .heading-data {
+    max-width: 500px; 
+    margin: 20px;
+  }
+  
+  .About-heading .heading-data h3 {
+    font-size: 36px; 
+    margin-bottom: 20px;
+  }
+  
+  .About-heading .heading-data p {
+    font-size: 18px; /* Adjust as needed */
+    line-height: 1.5;
+    color: black;
+  }
+  
+  /* Media query for smaller screens */
+  
+  .About-slideshow-section{
+    padding: 90px 50px;
+    } 
+    .About-button {
+        margin-top: 55px;
+        display: inline-block;
+        padding: 15px 60px;
+        color: rgb(0, 0, 0);
+        background-color: transparent;
+        border: 2px solid #65c0ba;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        border-radius: 4px;
+      }
+      
+      .About-button:hover {
+        background-color: #65c0ba;
+        color: rgb(255, 255, 255);
+      }
+      .container-data{
+        justify-content: center;
+        text-align: center;
+      
+      }
+      .container-data p{
+        font-size: 18px;
+        padding: 0 370px;
+        font-weight:300px; 
+      }
+      h1, h2, h3 {
+        color: #000;
+        font-family: "Abril Fatface", times, serif;
+      }
+      .container-data h2{
+        font-size: 32px;
+      }
+      @media (max-width: 768px) {
+        .About-heading {
+            flex-direction: column;
+            text-align: center; /* Center text on smaller screens */
+        }
+      
+        .About-heading img,
+        .About-heading .heading-data {
+            margin: 20px 0; /* Add margin for spacing */
+        }
+      }
+      @media (max-width: 480px) {
+        .About-heading {
+            flex-direction: column;
+            text-align: center;
+            width: 425px;
+        }
+      
+        .About-heading img,
+        .About-heading .heading-data {
+            margin: 20px 0; /* Add margin for spacing */
+        }
+        .About-heading img{
+          width: 90%;
+        }
+        .About-start img{
+          width:100%;
+          height: 500px;
+        }
+        .About-start{
+          height: 500px;
+        }
+        .About-slideshow-section   .container-data p{
+          padding: 0 50px;
+        }
+        .About-slideshow-section {
+          padding: 90px 0px;
+      }
+      .About-start .data h1{
+        font-size: 50px;
+      }
+      .About-start .data p{
+        font-size: 30px;
+      }
+      .About-start .data {
+        width: 350px;
+        bottom: 140px;
+      }
+      .About-slideshow-section h1{
+        font-size: 40px;
+      }
+      .About-slideshow-section p{
+        font-size: 30px;
+      }
+      .About-heading .heading-data p {
+        font-size: 20px;
+        line-height: 1.5;
+        color: black;
+        padding: 0 45px;
+    }
+    }

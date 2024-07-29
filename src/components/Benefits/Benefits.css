@@ -1,0 +1,33 @@
+.benefit{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 90px;
+}
+.benefit img{
+    height: 70px;
+    width: 70px;
+    align-self: center;
+}
+.section{
+    padding: 30px 10px;
+    width: 295px;
+    align-items: center;
+    text-align: center;
+    flex: 0 0 410px; /* play with this number */
+    margin: 10px;
+}
+h1, h2, h3 {
+    color: #000;
+    font-family: "Abril Fatface", times, serif;
+  }
+.section p{
+    font-size: 16px;
+  }
+    /* Media query for smaller screens */
+    @media (max-width: 480px) {
+        .benefit {
+            width: 100%;
+        }
+      
+      }

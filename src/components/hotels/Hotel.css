@@ -4,7 +4,7 @@
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
-    background: url('./adventure.jpg') no-repeat center center/cover; /* Use background image directly */
+    background: url('/adventure.jpg') no-repeat center center/cover; /* Use background image directly */
   overflow: hidden; 
   }
   

@@ -12,6 +12,7 @@ body {
   width: 100%;
   height: 100vh; /* Change to full viewport height */
   background: url('/home_background2.jpg') no-repeat center center/cover; /* Use background image directly */
+  background: url('/home_background2.jpg') no-repeat center center/cover; /* Use background image directly */
   overflow: hidden; /* Ensure no overflow */
 }
 

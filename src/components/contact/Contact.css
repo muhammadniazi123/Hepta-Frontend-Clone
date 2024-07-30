@@ -4,7 +4,7 @@
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
-    background: url('./view2.jpg') no-repeat center center/cover; 
+    background: url('/view2.jpg') no-repeat center center/cover; 
     overflow: hidden;
   }
   .contact-start::before {
@@ -251,8 +251,7 @@
       width: auto;
     }
     
-  }
-  @media (max-width: 396px){
+  } @media (max-width: 396px){
     .contact-container {
       max-width: 430px;
       display: flex;

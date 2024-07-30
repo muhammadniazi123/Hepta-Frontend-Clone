@@ -186,3 +186,48 @@
         padding: 0 50px;
       }
     }
+    @media (max-width: 396px){
+      .hotel-heading img {
+        height: 320px;
+        width: 275px;
+        margin: 0;
+        padding-right: 10px;
+    }
+    .hotel-heading{
+      width: 375px;
+    }
+    .hotel-heading .heading-data {
+      padding: 0 50px;
+      }
+      .benefit-section{
+        padding: 0;
+      }
+    }
+    @media (max-width: 321px){
+      .hotel-start .data h1{
+        font-size: 50px;
+      }
+      .hotel-start .data{
+        width: 300px;
+      }
+      .hotel-heading img {
+        height: 300px;
+        width: 250px;
+        margin: 0;
+        padding-right: 10px;
+    }
+    .hotel-heading .heading-data {
+      margin: 20px 0px;
+    }
+    .hotel-heading {
+    display: flex;
+    width: 320px;
+    flex-direction: column;
+      }
+      .benefit-section{
+        padding: 0;
+      }
+      .second-hotel-heading{
+        flex-direction: column-reverse;
+      }
+    }

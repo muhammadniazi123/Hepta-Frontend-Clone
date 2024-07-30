@@ -43,3 +43,13 @@
     }
   
   }
+  @media (max-width: 365px) {
+    .testimonial-container {
+     display: flex;
+     flex-direction: column;
+    }
+    .testimonial-container{
+        max-width: 350px;
+    }
+  
+  }

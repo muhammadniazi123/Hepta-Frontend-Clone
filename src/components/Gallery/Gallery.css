@@ -144,7 +144,8 @@
   }
 
   .Gallery-start .data {
-    top: 85%;
+    top: 70%;
+    width: 319px;
   }
 
   .Gallery-start img {
@@ -165,5 +166,21 @@
     height: 270px;
     width: 90%;
     padding-top: 15px;
+  }
+}
+@media (max-width: 321px){
+  .Gallery-container img{
+    height: 270px;
+    width: 85%;
+    padding-top: 15px;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 315px){
+  .Gallery-container img{
+    height: 270px;
+    width: 90%;
+    padding-top: 15px;
+    margin-left: 20px;
   }
 }

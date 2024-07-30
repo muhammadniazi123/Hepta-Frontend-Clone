@@ -37,17 +37,19 @@ img{
   transform:translateY(-50%);
   font-size:1.5em;
   padding:15px 10px;
-  border-radius:5px;
-  
+  border-radius:50px;
+  height: 37px;
+  background-color: white;
 }
 
 .controls:hover{
-  background:transparent;
+  background:white;
   transition:0.3s;
 }
 
 .controls:active{
   color:rgb(74, 74, 74);
+  
 }
 
 #left-arrow{
@@ -73,11 +75,15 @@ img{
 .active{
   background:crimson;
 }
-.fa {
-  font: 20px FontAwesome;
-  color: rgb(255, 255, 255);
+.controls .fa {
+  font: 15px FontAwesome;
+  color:#65c0ba;
+  position: relative;
+  bottom: 24px;
 }
-
+.controls .fa:hover{
+  color: #65c0ba;
+}
 
 @media (max-width:576px){
   #slider{width:100%;
@@ -90,5 +96,67 @@ img{
   
   #dots-con{
     display:none;
+  }
+}
+@media (max-width:480px){
+  .controls .fa{
+    font: 12px FontAwesome;
+  color:#65c0ba;
+  position: relative;
+  bottom: 26px;
+  }
+  .controls{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    font-size:1.5em;
+    padding:15px 10px;
+    border-radius:50px;
+    height: 32px;
+    background-color: white;
+  }
+}
+@media (max-width:395px){
+  .controls .fa{
+    font: 12px FontAwesome;
+  color:#65c0ba;
+  position: relative;
+  bottom: 27px;
+  }
+  .controls{
+    position:absolute;
+    top:35%;
+    transform:translateY(-50%);
+    font-size:1.5em;
+    padding:15px 10px;
+    border-radius:50px;
+    height: 32px;
+    background-color: white;
+  }
+  #slider{
+    width: 375px;
+    height: 375px;
+    margin: 8px;
+  }
+}
+@media (max-width:376px){
+  #slider{
+    width: 350px;
+    height: 320px;
+    margin: 13px;
+  }
+}
+@media (max-width:360px){
+  #slider{
+    width: 325px;
+    height: 300px;
+    margin: 16px;
+  }
+}
+@media (max-width:321px){
+  #slider{
+    width: 310px;
+    height: 295px;
+    margin: 3px;
   }
 }

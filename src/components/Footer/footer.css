@@ -173,4 +173,24 @@ button {
 .footer-newsletter{
   display: inline-flex;
 }
+@media (max-width: 480px){
+  .footer-bottom{
+    margin-left: 120px;
+    margin-right: 120px;
 
+  }
+}
+@media (max-width: 391px){
+  .footer-bottom{
+    margin-left: 120px;
+    margin-right: 120px;
+
+  }
+}
+@media (max-width: 320px){
+  .footer-bottom{
+    margin-left: 80px;
+    margin-right: 80px;
+
+  }
+}

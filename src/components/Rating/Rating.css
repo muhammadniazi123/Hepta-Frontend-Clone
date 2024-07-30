@@ -64,3 +64,15 @@
       display: flex;
     }
   }
+  @media (max-width: 365px) {
+    .reviews-container{
+      padding-right: 10px;
+      display: flex;
+    }
+  }
+  @media (max-width: 321px) {
+    .reviews-container{
+      padding-right: 0px;
+      display: flex;
+    }
+  }

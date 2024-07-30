@@ -185,3 +185,43 @@
         width: 300px;
     }
     }
+    @media (max-width:406px){
+      .App {
+        padding: 0;
+        width: 405px;
+    }
+    .post-list {
+      width: 90%;
+      margin: 50px 15px;
+  }
+    }
+    @media (max-width:396px){
+      .App {
+        padding: 0;
+        width: 395px;
+    }
+    .post-list {
+      width: 90%;
+      margin: 50px 15px;
+  }
+    }
+    @media (max-width:376px){
+      .App {
+        padding: 0;
+        width: 375px;
+      }
+    .post-list {
+      width: 90%;
+      margin: 50px 15px;
+  }
+    }
+    @media (max-width:321px){
+      .App {
+        padding: 0;
+        width: 320px;
+      }
+    .post-list {
+      width: 90%;
+      margin: 50px 15px;
+  }
+    }

@@ -252,3 +252,47 @@
     }
     
   }
+  @media (max-width: 396px){
+    .contact-container {
+      max-width: 430px;
+      display: flex;
+      flex-direction: column;
+      margin: 0px 10px;
+  }
+  }
+  @media (max-width: 381px){
+    .contact-container {
+      display: flex;
+      flex-direction: column;
+      margin: 0px 10px;
+  }
+  .contact-form {
+    width: 340px;
+    margin: 20px 10px;
+    margin-top: 120px;
+}
+  }
+  @media (max-width: 366px){
+    .contact-container {
+      display: flex;
+      flex-direction: column;
+      margin: 0px 10px;
+  }
+  .contact-form {
+    width: 320px;
+    margin: 20px 10px;
+    margin-top: 120px;
+}
+  }
+  @media (max-width: 321px){
+
+  .contact-form {
+    width: 290px;
+    margin: 20px 5px;
+    margin-top: 120px;
+}
+.contact-start .data {
+  top: 60%;
+  width: 275px;
+}
+  }

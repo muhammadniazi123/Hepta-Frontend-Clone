@@ -196,3 +196,37 @@
         padding: 0 45px;
     }
     }
+    @media (max-width: 396px){
+      .About-heading img {
+        height: 320px;
+        width: 275px;
+        margin: 0;
+        padding-right: 10px;
+    }
+    .About-heading{
+      width: 375px;
+    }
+    .About-heading .heading-data {
+      padding: 0 50px;
+      }
+      .benefit-section{
+        padding: 0;
+      }
+    }
+    @media (max-width: 321px) {
+    .About-start .data{
+      width: 300px;
+    }
+    .About-heading img {
+      height: 300px;
+      width: 250px;
+      margin: 0;
+      padding-right: 10px;
+  }
+  .About-heading .heading-data {
+    margin: 20px 0px;
+  }
+  .About-heading {
+    width: 320px;
+  }
+}
